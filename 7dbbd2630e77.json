@@ -1,0 +1,16 @@
+{
+  "code": "Tes",
+  "title": "Tes",
+  "syntax": "xml",
+  "expiration": "1day",
+  "exposure": "public",
+  "category": "",
+  "tags": [
+    ""
+  ],
+  "password": "",
+  "burnAfterRead": false,
+  "id": "7dbbd2630e77",
+  "createdAt": "2025-09-06T08:47:41.564Z",
+  "ownerId": 1757142465264
+}
