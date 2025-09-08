@@ -1,0 +1,14 @@
+{
+  "code": "@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n:root {\n  --font-sans: 'Inter', sans-serif;\n  --font-mono: 'JetBrains Mono', monospace;\n  --color-background: #f8f9fa;\n  --color-surface: #ffffff;\n  --color-surface-muted: #f1f5f9;\n  --color-primary-bg: #111827;\n  --color-primary-fg: #ffffff;\n  --color-text: #1f2937;\n  --color-text-muted: #64748b;\n  --color-outline: #e5e7eb;\n  --color-outline-focus: #1f2937;\n  --color-ring: rgba(31, 41, 55, 0.2);\n}\n@media (prefers-color-scheme: dark) {\n  :root {\n    --color-background: #0a0a0a;\n    --color-surface: #111111;\n    --color-surface-muted: #1a1a1a;\n    --color-primary-bg: #f8f9fa;\n    --color-primary-fg: #0a0a0a;\n    --color-text: #f8f9fa;\n    --color-text-muted: #9ca3af;\n    --color-outline: #374151;\n    --color-outline-focus: #a7a7a7;\n    --color-ring: rgba(167, 167, 167, 0.2);\n  }\n}\n\n@layer base {\n  body {\n    background-color: var(--color-background);\n    color: var(--color-text);\n    font-family: var(--font-sans);\n    @apply antialiased;\n  }\n  \n  input, select, textarea {\n    background-color: var(--color-surface);\n    border-color: var(--color-outline);\n    color: var(--color-text);\n    @apply w-full border rounded-md px-3 py-2 text-base outline-none transition-all duration-200;\n  }\n  input:focus, select:focus, textarea:focus {\n    border-color: var(--color-outline-focus);\n    --tw-ring-color: var(--color-ring);\n    @apply ring-2;\n  }\n  select {\n    -webkit-appearance: none;\n    appearance: none;\n    background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e\");\n    background-position: right 0.5rem center;\n    background-repeat: no-repeat;\n    background-size: 1.5em 1.5em;\n  }\n  input::placeholder, textarea::placeholder { color: var(--color-text-muted); opacity: 0.7; }\n  \n  pre code.hljs {\n    background-color: var(--color-surface-muted) !important;\n    @apply p-4 rounded-b-lg;\n  }\n}\n\n@layer components {\n  ::-webkit-scrollbar { width: 8px; height: 8px; }\n  ::-webkit-scrollbar-track { background: var(--color-surface); }\n  ::-webkit-scrollbar-thumb { background-color: var(--color-outline); border-radius: 4px; }\n  ::-webkit-scrollbar-thumb:hover { background-color: var(--color-outline-hover); }\n}\n\n.logo img { filter: var(--color-background) invert(0); }\n@media (prefers-color-scheme: dark) { .logo img { filter: var(--color-background) invert(1); } }",
+  "syntax": "javascript",
+  "title": "Udinnn",
+  "password": "",
+  "expiration": "never",
+  "id": "522bc93275897f52",
+  "slug": "udinnn",
+  "createdAt": "2025-09-08T05:21:29.010Z",
+  "owner": "rencollins",
+  "views": 0,
+  "downloads": 0,
+  "stars": 0
+}
